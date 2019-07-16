@@ -40,7 +40,7 @@ def RunRule(lexer, fullName, decl, contextStack, context) :
         value = value[1:]
     if value.startswith("~") :
         value = value[1:]
-    if Search("^[a-z]", value) and not IsOperator(value) and not value.startswith("is"):
+    if Search("^[a-z]", value) and not IsOperator(value) and not value.startswith("is") and value != "main":
         if not t.value in keywords :
 
             nsiqcppstyle_reporter.Error(t, __name__, "Do not start function name(%s) with lowercase" % fullName)         
