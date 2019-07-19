@@ -18,7 +18,7 @@
 #~ RULE_im_1_3_D_do_not_use_more_than_5_paramters_in_function
 #~ RULE_im_1_4_do_not_use_lowercase_for_macro_constants
 #~ RULE_im_2_1_provide_doxygen_struct_comment_on_struct_def
-#~ RULE_im_2_2_provide_doxygen_function_comment_on_function_in_header
+#~ RULE_im_2_2_A_provide_doxygen_function_comment_on_function_in_header
 #~ RULE_im_2_2_B_provide_doxygen_function_comment_on_function_in_impl
 #~ RULE_im_2_3_provide_file_info_comment
 #~ RULE_im_3_1_A_use_space_for_indentation
